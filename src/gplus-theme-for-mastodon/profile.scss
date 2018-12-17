@@ -15,7 +15,7 @@
 		&:hover,
 		&:focus,
 		&:active {
-			background: darken($base-lighter1-color, 8%);
+			background: lighten($base-lighter1-color, 8%);
 		}
 	}
 

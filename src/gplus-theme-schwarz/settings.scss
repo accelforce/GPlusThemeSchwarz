@@ -33,7 +33,7 @@ body.admin {
 				}
 			}
 
-			ul { background: darken($setting-base-color, 4%) }
+			ul { background: lighten($setting-base-color, 4%) }
 
 			.simple-navigation-active-leaf a {
 				color: $icon-active-color;
@@ -100,7 +100,7 @@ body.admin {
 
 		&:active,
 		&:focus {
-			background: darken($setting-content-base-color, 8%);
+			background: lighten($setting-content-base-color, 8%);
 		}
 	}
 

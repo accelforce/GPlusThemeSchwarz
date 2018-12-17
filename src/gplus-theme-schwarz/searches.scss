@@ -25,7 +25,7 @@
 		> .search-results {
 			&__header { background: $base-color }
 			&__section {
-				> h5 { background: darken($base-color, 10%) }
+				> h5 { background: lighten($base-color, 10%) }
 			}
 		}
 	}

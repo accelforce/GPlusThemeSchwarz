@@ -12,7 +12,7 @@ $verified-color: #4caf50;
 
 
 // Text colors
-$primary-text-color: rgba(0, 0, 0, 0.87);
+$primary-text-color: #ffffff;
 $primary-lighter1-text-color: change-color($color: $primary-text-color, $lightness: 62%, $alpha: 1.0); // ex: 時間表示
 $primary-lighter2-text-color: change-color($color: $primary-text-color, $lightness: 38%, $alpha: 1.0); // ex: 通知メッセージ表示
 $secondary-text-color: #2962ff;
@@ -29,16 +29,16 @@ $icon-active-color: $active-color;
 
 
 // Background colors
-$base-color: #f1f1f1;
-$base-lighter1-color: #ffffff;
+$base-color: #000000;
+$base-lighter1-color: #212121;
 $base-darker1-color: rgba(0, 0, 0, 0.4);
 
-$column-header-color: $base-lighter1-color;
+$column-header-color: #101010;
 $column-header-hover-color: change-color($color: $column-header-color, $lightness: 90%);
 
 $status-color: $base-lighter1-color;
-$status-direct-color: darken($status-color, 5%);
-$status-actionbar-color: change-color($color: $status-color, $lightness: 98%);
+$status-direct-color: lighten($status-color, 5%);
+$status-actionbar-color: change-color($color: $status-color, $lightness: 10%);
 
 $account-color: $base-lighter1-color;
 $account-foreground-color: $base-darker1-color;
@@ -52,8 +52,8 @@ $form-focused-color: lighten($form-color, 20%);
 $trend-color: $base-lighter1-color;
 
 $setting-base-color: $base-color;
-$setting-lists-selected-color: darken($base-color, 2%);
-$setting-lists-hover-color: darken($base-color, 5%);
+$setting-lists-selected-color: lighten($base-color, 5%);
+$setting-lists-hover-color: lighten($base-color, 7%);
 $setting-content-base-color: $base-lighter1-color;
 
 $setting-toggle-color: #b9b9b9;
@@ -69,13 +69,13 @@ $explore-directory-color: $base-lighter1-color;
 
 
 // Shadow colors
-$column-header-shadow-color: rgba(0, 0, 0, 0.3);
-$status-shadow-color: rgba(0, 0, 0, 0.14);
+$column-header-shadow-color: rgba(255, 255, 255, 0.1);
+$status-shadow-color: rgba(255, 255, 255, 0.14);
 $status-focused-shadow-color: change-color($color: $status-shadow-color, $alpha: 0.3);
-$icon-hovered-shadow-color: rgba(0, 0, 0, 0.26);
-$account-header-image-shadow-color: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.46));
-$button-shadow-color: rgba(0, 0, 0, 0.4);
+$icon-hovered-shadow-color: rgba(255, 255, 255, 0.26);
+$account-header-image-shadow-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.46));
+$button-shadow-color: rgba(255, 255, 255, 0.4);
 
 
 // Separation colors
-$base-separation-color: rgba(0, 0, 0, 0.14);
+$base-separation-color: rgba(255, 255, 255, 0.14);

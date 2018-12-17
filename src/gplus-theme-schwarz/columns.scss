@@ -190,7 +190,7 @@
 	&-gap {
 		background: transparent;
 
-		&:hover { background: darken($column-header-color, 10%) }
+		&:hover { background: lighten($column-header-color, 10%) }
 	}
 
 	&-gap { border: 0 }
