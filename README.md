@@ -1,15 +1,21 @@
-# Google+ Theme for Mastodon v1.1
+# Google+ Theme Schwarz
 
+シャドウラインにMastodonが乗っ取られちゃったやつ
 
-## Languages
-* [日本語 | Japanese](./README[Japanese].md)
+[Google+ Theme for Mastodon](https://github.com/GenbuProject/GPlusTheme-for-Mastodon)をベースにしたMastodonのテーマ
 
+シュバルツのネーミングは[あのシュバルツ](https://ja.wikipedia.org/wiki/%E7%83%88%E8%BB%8A%E6%88%A6%E9%9A%8A%E3%83%88%E3%83%83%E3%82%AD%E3%83%A5%E3%82%A6%E3%82%B8%E3%83%A3%E3%83%BC#%E3%82%B7%E3%83%A3%E3%83%89%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%B3)から
 
-## Overview
-This theme replaces WebUI of any Mastodon instances with [Google+](https://plus.google.com) like one.
+ちなみにちゃんと希望のレインボーラインをこっそり残してあったりします
 
+## Licenses
+* [Google+ Theme for Mastodon](https://github.com/GenbuProject/GPlusTheme-for-Mastodon) - MIT License
+* Google+ Theme Schwarz - MIT License
 
 ## Requirement
+```
+注: 以下の情報は Google+ Theme for Mastodon に基づくものであり、このフォークの動作を保証するものではありません
+```
 * [Mastodon](https://github.com/tootsuite/mastodon)
   * v2.7.x
   * v2.6.x
@@ -19,6 +25,10 @@ This theme replaces WebUI of any Mastodon instances with [Google+](https://plus.
 
 
 ## Installation
+```
+注: 以下の情報は Google+ Theme for Mastodon に基づくものであり、このフォークの動作を保証するものではありません
+注: 以下の通りに操作してもこのフォークを導入することはできません
+```
 1.  Follow [the official guide](https://github.com/tootsuite/documentation/blob/master/Running-Mastodon/Customizing.md#multiple-themes) and add this theme
     1.  Copy these files in `src` of this repository into `app/javascript/styles` of Mastodon source directory
         * `/gplus-theme-for-mastodon/`
@@ -82,10 +92,3 @@ This theme replaces WebUI of any Mastodon instances with [Google+](https://plus.
     p.frame_src       :self, :https
     p.manifest_src    :self, assets_host
     ```
-
-
-## Screenshots
-<Img Src="./docs/screenshots/001.png" Alt="Overview on Google Chrome@Windows 8.1(64bit)" Width="100%" />
-<Img Src="./docs/screenshots/002.png" Alt="Account on Google Chrome@Windows 8.1(64bit)" Width="100%" />
-<Img Src="./docs/screenshots/003.png" Alt="Setting on Google Chrome@Windows 8.1(64bit)" Width="100%" />
-<Img Src="./docs/screenshots/004.png" Alt="Account on Google Chrome@Nexus 5X" Width="40%" />
