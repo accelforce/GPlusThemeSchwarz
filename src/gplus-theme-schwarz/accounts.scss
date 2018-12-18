@@ -31,6 +31,8 @@
 
 		> div { background-color: inherit }
 
+		&__username { @include gradient-text; }
+
 		.account__header {
 			&__username { color: $secondary-lighter1-text-color }
 			&__fields { @extend .account__header__fields; }

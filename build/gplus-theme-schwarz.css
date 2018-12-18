@@ -10368,7 +10368,10 @@ button.table-action-link:hover {
   background-color: inherit;
 }
 .account-timeline__header .account__header__username {
-  color: #00bfff;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display: inline-block;
 }
 .account-timeline__header .account__header .account--action-button .icon-button:not(.active) {
   color: #222222;
