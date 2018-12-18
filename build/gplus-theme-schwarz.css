@@ -10467,7 +10467,7 @@ a.name-tag {
 .notification > .notification__message {
   color: #616161;
   font-size: 13px;
-  padding: 8px 0;
+  padding: 18px 0;
 }
 .notification > .notification__message .notification__display-name:hover {
   color: inherit;
