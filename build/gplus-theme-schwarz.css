@@ -3874,6 +3874,47 @@ a.account__display-name:hover strong {
   text-decoration: none;
 }
 
+.notification__filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #282c37;
+}
+.notification__filter-bar > button {
+  position: relative;
+  flex-grow: 1;
+  color: #ffffff;
+  padding: 10px 5px 12px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  background: #1f232b;
+  border: 0;
+  border-bottom: 1px solid #393f4f;
+  cursor: default;
+}
+.notification__filter-bar > button.active {
+  color: #d9e1e8;
+}
+.notification__filter-bar > button.active::before, .notification__filter-bar > button.active::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 0 10px 10px;
+  border-color: transparent transparent #393f4f;
+}
+.notification__filter-bar > button.active::after {
+  bottom: -1px;
+  border-color: transparent transparent #282c37;
+}
+
 .notification__message {
   margin: 0 10px 0 68px;
   padding: 8px 0 0;
@@ -11045,6 +11086,47 @@ label[for=user_setting_default_privacy_public], label[for=user_setting_default_p
 }
 .public-layout .footer .brand svg path:last-child {
   fill: #212121 !important;
+}
+
+.notification__filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #101010;
+}
+.notification__filter-bar > button {
+  position: relative;
+  flex-grow: 1;
+  color: #ffffff;
+  padding: 10px 5px 12px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  background: #1a1a1a;
+  border: 0;
+  border-bottom: 1px solid #242424;
+  cursor: default;
+}
+.notification__filter-bar > button.active {
+  color: #db4437;
+}
+.notification__filter-bar > button.active::before, .notification__filter-bar > button.active::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 0 10px 10px;
+  border-color: transparent transparent #242424;
+}
+.notification__filter-bar > button.active::after {
+  bottom: -1px;
+  border-color: transparent transparent #101010;
 }
 
 /*# sourceMappingURL=gplus-theme-schwarz.css.map */
