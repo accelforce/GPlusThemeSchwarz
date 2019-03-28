@@ -34,7 +34,7 @@ $base-lighter1-color: #212121;
 $base-darker1-color: rgba(0, 0, 0, 0.4);
 
 $column-header-color: #101010;
-$column-header-hover-color: change-color($color: $column-header-color, $lightness: 90%);
+$column-header-hover-color: change-color($color: $column-header-color, $lightness: 10%);
 
 $status-color: $base-lighter1-color;
 $status-direct-color: lighten($status-color, 5%);
